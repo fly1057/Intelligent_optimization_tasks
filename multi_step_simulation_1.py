@@ -16,7 +16,7 @@ plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 # ============================
 # 储能系统类定义
 # ============================
-class EnergyStorageSystem:
+class EnergyStorageSystem: 
     def __init__(self, name, E_rated, P_current, P_min, P_max, SOC_current, SOC_min, SOC_max, dP_max, eff_charge, eff_discharge):
         self.name = name
         self.E_rated = E_rated  # kWh
